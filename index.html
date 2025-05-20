@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feliz Cumpleaños Estefanía</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <div class="birthday-card">
+      <!-- Escenas de lugares -->
+      <div class="scenes-container">
+        <div class="scene" id="scene-0">
+          <div class="scene-overlay"></div>
+          <div class="scene-content">
+            <h3>Playa</h3>
+            <p>Arena blanca</p>
+          </div>
+          <div class="scene-decoration beach-decoration">
+            <div class="sun"></div>
+            <div class="wave"></div>
+          </div>
+        </div>
+        
+        <div class="scene" id="scene-1">
+          <div class="scene-overlay"></div>
+          <div class="scene-content">
+            <h3>Volcán</h3>
+            <p>Guatemala</p>
+          </div>
+          <div class="scene-decoration volcano-decoration">
+            <div class="lava-particle" style="left: 45%; animation-delay: 0.5s;"></div>
+            <div class="lava-particle" style="left: 55%; animation-delay: 1.2s;"></div>
+            <div class="lava-particle" style="left: 48%; animation-delay: 0.8s;"></div>
+          </div>
+        </div>
+        
+        <div class="scene" id="scene-2">
+          <div class="scene-overlay"></div>
+          <div class="scene-content">
+            <h3>París</h3>
+            <p>Ciudad del amor</p>
+          </div>
+          <div class="scene-decoration paris-decoration">
+            <div class="light" style="left: 20%; top: 30%; animation-delay: 0.3s;"></div>
+            <div class="light" style="left: 50%; top: 20%; animation-delay: 0.7s;"></div>
+            <div class="light" style="left: 80%; top: 40%; animation-delay: 1.1s;"></div>
+            <div class="light" style="left: 35%; top: 60%; animation-delay: 1.5s;"></div>
+            <div class="light" style="left: 65%; top: 70%; animation-delay: 0.9s;"></div>
+          </div>
+        </div>
+        
+        <div class="scene" id="scene-3">
+          <div class="scene-overlay"></div>
+          <div class="scene-content">
+            <h3>Prado Florado</h3>
+            <p>Jardín</p>
+          </div>
+          <div class="scene-decoration garden-decoration">
+            <div class="flower" style="left: 20%; top: 30%; animation-delay: 0.3s;">🌸</div>
+            <div class="flower" style="left: 50%; top: 20%; animation-delay: 0.7s;">🌷</div>
+            <div class="flower" style="left: 80%; top: 40%; animation-delay: 1.1s;">🌹</div>
+            <div class="flower" style="left: 35%; top: 60%; animation-delay: 1.5s;">🌺</div>
+            <div class="flower" style="left: 65%; top: 70%; animation-delay: 0.9s;">🌻</div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Contenido de la tarjeta -->
+      <div class="card-content">
+        <div class="party-icon">🎉</div>
+        
+        <h1 class="title">¡Feliz Cumpleaños!</h1>
+        <div class="name">Estefanía</div>
+        
+        <div class="sparkles">
+          <span>✨</span>
+          <span>✨</span>
+          <span>✨</span>
+          <span>✨</span>
+          <span>✨</span>
+        </div>
+        
+        <div class="age-container">
+          Celebrando tus maravillosos
+          <span class="age">29</span>
+          años
+        </div>
+        
+        <p class="message">
+          Que este nuevo año de vida esté lleno de alegría, amor y momentos inolvidables.
+        </p>
+        
+        <!-- Flores animadas -->
+        <div class="animated-flowers">
+          <span class="flower-icon" style="animation-delay: 0s;">🌸</span>
+          <span class="flower-icon" style="animation-delay: 0.2s;">🌷</span>
+          <span class="flower-icon" style="animation-delay: 0.4s;">🌹</span>
+          <span class="flower-icon" style="animation-delay: 0.6s;">🌺</span>
+          <span class="flower-icon" style="animation-delay: 0.8s;">🌻</span>
+          <span class="flower-icon" style="animation-delay: 1.0s;">🌼</span>
+          <span class="flower-icon" style="animation-delay: 1.2s;">💐</span>
+        </div>
+        
+        <button id="celebrate-btn" class="celebrate-btn">
+          🎁 ¡Celebremos!
+        </button>
+        
+        <div class="icons-container">
+          <div class="icon">❤️</div>
+          <div class="icon">🎵</div>
+          <div class="icon">🎊</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <canvas id="confetti-canvas"></canvas>
+  
+  <script src="script.js"></script>
+</body>
+</html>
