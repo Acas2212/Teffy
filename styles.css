@@ -54,19 +54,19 @@ body {
 }
 
 #scene-0 {
-  background-image: url("beach.jpg");
+  background-image: url("lib/playa.jpg");
 }
 
 #scene-1 {
-  background-image: url("volcano.jpg");
+  background-image: url("lib/volcan.webp");
 }
 
 #scene-2 {
-  background-image: url("paris.jpg");
+  background-image: url("lib/paris.jpeg");
 }
 
 #scene-3 {
-  background-image: url("garden.jpg");
+  background-image: url("lib/prado.webp");
 }
 
 .scene-overlay {
